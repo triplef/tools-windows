@@ -86,8 +86,8 @@ As support for using GNUstep with the MSVC ABI has only been recently added, and
 
 Following is a list of some of the open items.
 
-- [ ] Add support for building libdispatch for x86 (currently blocked by [libdispatch build issue](https://bugs.swift.org/browse/SR-14314))
 - [ ] Build Pthreads-win32 from source (to match CRT version, or update GNUstep to use Windows threading APIs directly)
+- [ ] Use Windows-provided ICU ([#2](https://github.com/gnustep/tools-windows-msvc/issues/2))
 - [ ] Add parameters to build script e.g. for changing install prefix
 - [ ] Figure out building Objective-C code in Visual Studio
 - [ ] Fix tests in GNUstep Base
